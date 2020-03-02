@@ -1,0 +1,26 @@
+@import "~bootstrap/scss/bootstrap";
+
+@import "fonts";
+@import "variables";
+@import "slider";
+
+html {
+    box-sizing: border-box;
+    font-size:16px;
+    @media (max-width:$screen-sm-max) {
+      font-size:14px;
+    }
+       @media (max-width:$screen-sm-max) {
+     font-size: 13px;
+   }
+
+  }
+
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+body {
+  background:#0b151f;
+}
